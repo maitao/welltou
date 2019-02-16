@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_back"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="返回"/>
+    <!--<item-->
+        <!--android:id="@+id/action_cont"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:showAsAction="never"-->
+        <!--android:title="连接" />-->
+    <!--<item-->
+        <!--android:id="@+id/action_close"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:showAsAction="never"-->
+        <!--android:title="断开"/>-->
+
+</menu>

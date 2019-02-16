@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/connect"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/bn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/disconnect"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/bn33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btlist"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="6dip"
+        android:layout_weight="3"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ed1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bodor"
+            android:gravity="left|top"
+            android:minLines="6"
+            android:textColor="#000000"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginTop="6dip"
+        android:layout_weight="3"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/bodor"
+            android:gravity="left|top"
+            android:minLines="6"
+            android:layout_margin="6dip"
+            android:textColor="#000000"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/bn3"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dip"
+            android:layout_marginRight="3dip"
+            android:layout_marginTop="50dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/send"
+            android:textSize="24dip" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/t_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="6.0dip"
+        android:gravity="left"
+        android:text="深圳微舵科技  www.welltou.com\n蓝牙适配器/无线打印（此应用仅供测试）\n技术支持：杨先生 13632869800"
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
